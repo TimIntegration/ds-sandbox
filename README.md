@@ -1,6 +1,7 @@
 boilerplate to bootstrap a development container for a data science project
 
 # Setup in vscode
+- git clone https://github.com/TimIntegration/ds-sandbox.git .
 - reopen in container
 - open the terminal and run the following command
 ```bash
