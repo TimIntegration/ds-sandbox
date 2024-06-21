@@ -14,7 +14,7 @@ conda init
 echo ".devcontainer/.env" >> .gitignore
 ```
 
-## Two possible errors in vscode:
+## Possible issue in vscode:
 - if error regarding conda-libmamba-solver, then use command to copy file
 `cp /opt/conda/lib/libarchive.so /opt/conda/lib/libarchive.so.19`
 
@@ -22,3 +22,6 @@ echo ".devcontainer/.env" >> .gitignore
 `mv /opt/conda/bin/python3.1 /opt/conda/bin/python3.12.2`
 
 - stick with conda (base) environment, create different containers for different projects. May need to clear cache in vscode, `Python: clear cache and restart`
+
+- conda install error: PermissionError: [Errno 13] Permission denied
+`sudo chmod -R 777 /opt/conda/`
