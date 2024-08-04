@@ -22,6 +22,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"editor.scrollbar.verticalScrollbarSize": 30
 				// "sqltools.connections": [
 				// 	{
 				// 		"name": "Container database",
